@@ -1,0 +1,123 @@
+
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+  
+}
+
+/* regole header */
+header{
+    height: 50px;
+    background-color:#0084fd ;
+}
+header .container{
+     display: flex;
+     justify-content: space-between;
+     min-height: 50px;
+}
+.menudesktop{
+    display: none;
+}
+/* regole sezione demo dev application */
+.row{
+  
+
+}
+.col{
+ width: 100%;
+}
+
+
+.footer{
+    background-color: black;
+}
+
+/* varsione desktop */
+@media screen and (min-width:1280){
+    .menuphone{
+        display: none;
+    }
+    .menudesktop{
+        display: block;
+    }
+}
+/* regole debug */
+section{
+    background-color: blueviolet;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+.container{
+    border: solid 1px black;
+    min-height: 50px;
+}
+footer{
+    height: 150px;
+    background-color:#333333 ;
+}
+#logo, header nav{
+    min-width: 50px;
+    min-height: 50px;
+    border: solid 1px black;
+ }
+#logo{
+    background-color:darkslategray;
+}
+.menuphone{
+    background-color:darkslateblue;
+}
+.menudesktop{
+    background-color: darkslateblue;
+}
+.col-left{
+    min-height: 100px;
+    background-color: aqua;
+    margin: solid 1px black;
+}
+.col-right{
+    min-height: 100px;
+    background-color: rgb(2, 54, 54);
+    margin: solid 1px black;
+}  
+.col-first{
+    min-height: 100px;
+    background-color: rgb(1, 22, 22);
+    margin: solid 1px black;
+}   
+.col-second{
+    min-height: 100px;
+    background-color: rgb(1, 22, 6);
+    margin: solid 1px black;
+} 
+.col-third{
+    min-height: 100px;
+    background-color: rgb(3, 1, 22);
+    margin: solid 1px black;
+} 
+#strategic-plan{
+    min-height: 100px;
+    background-color: red;
+}
+#app-development{
+    min-height: 100px;
+    background-color: orangered;
+}
+.text-col{
+    min-height: 100px;
+    background-color: rgb(255, 230, 0); 
+}
+.testimonial-col{
+    min-height: 100px;
+    background-color: rgb(158, 143, 3);
+    
+}
+.col{
+    min-height: 100px;
+    background-color: rgb(3, 158, 62);
+}
