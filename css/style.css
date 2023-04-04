@@ -214,7 +214,7 @@ header .container {
 }
 
 .testimonial-col {
-    
+
     text-align: center;
     background-color: #9792e4;
     padding: 40px 0;
@@ -238,53 +238,113 @@ header .container {
 }
 
 /* <!-- regole sezione benefit --> */
-.benefit-section{
-    background-color:#9792e4 ;
-      
+.benefit-section {
+    background-color: #9792e4;
+
 }
-.benefit-container{
-    padding:  50px 0;
+
+.benefit-container {
+    padding: 50px 0;
 }
-.benefit-row{
+
+.benefit-row {
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
-.benefit-col{
-  
-   margin: 50px 0;
+
+.benefit-col {
+
+    margin: 50px 0;
     background-color: #ffffff;
     border-radius: 30px;
 }
-.benefit-maintitle{
+
+.benefit-maintitle {
     font-size: 35px;
     text-align: center;
     color: white;
 }
-.benefit-title{
-font-size: 40px;
-padding:20px ;
-color: #9792e4;
+
+.benefit-title {
+    font-size: 40px;
+    padding: 20px;
+    color: #9792e4;
 }
-.benefit-subtitle{
-   font-size: 30px; 
-   padding:20px ;
-   color: #9792e4;
+
+.benefit-subtitle {
+    font-size: 30px;
+    padding: 20px;
+    color: #9792e4;
 }
-.benefit-paragraph{
-    font-size: 18px; 
-    padding:20px ;  
+
+.benefit-paragraph {
+    font-size: 18px;
+    padding: 20px;
     color: #818181;
 }
-.benefit-button{
-   width: 120px;
-   height: 40px;
-   font-size: 15px;
-   margin:20px ; 
-   border-radius: 30px;
-   border: none;
-   background-color: #9792e4;
-   color: white;
+
+.benefit-button {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 30px;
+    border: none;
+    background-color: #9792e4;
+    color: white;
 }
+
+/* <!-- regole sezione about us --> */
+.about-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-maintitle {
+    color: #9792e4;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.about-paragraph {
+    font-size: 22px;
+    margin: 40px 0;
+}
+
+.about-imgcol {
+    width: 180px;
+    height: 180px;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin: 40px 0;
+    position: relative;
+}
+
+.fa-quote-left {
+    position: absolute;
+    font-size: 70px;
+    left: 140px;
+    top: 5px;
+    color: #9792e4;
+}
+
+.about-subtitle {
+    color: #9792e4;
+    font-size: 35px;
+    margin: 30px 0;
+
+}
+
+.about-button {
+    width: 200px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    background-color: #9792e4;
+}
+
 .footer {
     background-color: black;
 }
@@ -343,16 +403,44 @@ color: #9792e4;
 
 
     }
+
     /* regole sezione benefit */
-    .benefit-row{
+    .benefit-row {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .benefit-col{
-        width: calc(90%/2 );
+
+    .benefit-col {
+        width: calc(90%/2);
     }
-   
+
+    /* <!-- regole sezione about us --> */
+    .about-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-col {
+        width: calc(90%/2);
+    }
+
+    .about-col-img {
+        width: calc(90%/2);
+    }
+
+    .about-imgcol {
+        margin-top: 90px;
+    }
+    .about-button{
+        font-size: 11px;
+        width: 150px;
+        height: 25px;
+    }
+
+
 }
 
 /* varsione desktop */
@@ -429,7 +517,7 @@ color: #9792e4;
     .col-demo {
         width: 30%;
         height: 350px;
-       
+
     }
 
     /* <!--regole sezione planning --> */
@@ -480,18 +568,41 @@ color: #9792e4;
 
 
     }
-     /* regole sezione benefit */
-     .benefit-row{
+
+    /* regole sezione benefit */
+    .benefit-row {
         width: 60%;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .benefit-col{
-        width: calc(90%/3 );
+
+    .benefit-col {
+        width: calc(90%/3);
     }
 
+    /* <!-- regole sezione about us --> */
+    .about-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about-col-img {
+        width: 25%;
+      
+    }
+
+    .about-col {
+        width:70%;
+    }
+    .about-subtitle{
+        font-size: 22px;
+    }
+    .about-paragraph{
+        font-size: 20px;
+        margin: 60px 0;
+    }
 }
 
 
