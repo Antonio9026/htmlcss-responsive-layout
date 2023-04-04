@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:'PT Sans', sans-serif;  ;
+}
 
 .container {
     width: 80%;
@@ -244,11 +247,13 @@ header .container {
 }
 
 .benefit-container {
+    width: 80%;
+    margin: 0 auto;
     padding: 50px 0;
 }
 
 .benefit-row {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -345,8 +350,101 @@ header .container {
     background-color: #9792e4;
 }
 
-.footer {
-    background-color: black;
+/* <!--regole sezione get started --> */
+.getstarted-section {
+    background-color: #9792e4;
+}
+
+.getstarted-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.copyright-row {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    color: white;
+
+}
+
+.getstarted-paragraph {
+    font-size: 20px;
+    padding-top: 40px;
+    color: white;
+}
+
+.getstarted-title {
+    font-size: 30px;
+    margin: 40px 0;
+    color: white;
+}
+
+.getstarted-maintitle {
+    font-size: 50px;
+    color: #fdc15f;
+}
+
+.getstarted-button {
+    width: 280px;
+    height: 70px;
+    font-size: 20px;
+    margin: 40px;
+    color: #9792e4;
+
+}
+
+#privacy-link {
+    color: white;
+    position: relative;
+    font-size: 15px;
+}
+
+.copyright-paragraph {
+    font-size: 15px;
+}
+
+.copyright-second-paragraph {
+    font-size: 15px;
+    position: relative;
+    margin: 0 10px;
+
+}
+
+.fa-circle {
+    font-size: 5px;
+    position: absolute;
+    top: 7px;
+    left: -6px;
+}
+
+/* regole footer */
+footer {
+    height: 200px;
+    background-color: #333333;
+
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+
+.footer-paragraph {
+
+    padding: 30px 0;
+}
+
+.lorem-boolean {
+    color: #9792e4;
+
 }
 
 /* versione tablet */
@@ -405,6 +503,7 @@ header .container {
     }
 
     /* regole sezione benefit */
+  
     .benefit-row {
         display: flex;
         flex-wrap: wrap;
@@ -413,6 +512,7 @@ header .container {
 
     .benefit-col {
         width: calc(90%/2);
+        margin: 20px 0;
     }
 
     /* <!-- regole sezione about us --> */
@@ -434,12 +534,16 @@ header .container {
     .about-imgcol {
         margin-top: 90px;
     }
-    .about-button{
+
+    .about-button {
         font-size: 11px;
         width: 150px;
         height: 25px;
     }
 
+   
+   
+    
 
 }
 
@@ -570,12 +674,17 @@ header .container {
     }
 
     /* regole sezione benefit */
-    .benefit-row {
+    .benefit-container{
         width: 60%;
+        margin: 0 auto;
+    }
+    .benefit-row {
+        width: 100%;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        
     }
 
     .benefit-col {
@@ -590,16 +699,18 @@ header .container {
 
     .about-col-img {
         width: 25%;
-      
+
     }
 
     .about-col {
-        width:70%;
+        width: 70%;
     }
-    .about-subtitle{
+
+    .about-subtitle {
         font-size: 22px;
     }
-    .about-paragraph{
+
+    .about-paragraph {
         font-size: 20px;
         margin: 60px 0;
     }
@@ -616,10 +727,10 @@ header .container {
     border: solid 1px black;
     min-height: 50px;
 } */
-footer {
+/* footer {
     height: 150px;
     background-color: #333333;
-}
+} */
 
 /* #logo, header nav{
     min-width: 50px;
