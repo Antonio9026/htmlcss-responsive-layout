@@ -115,7 +115,7 @@ header .container {
 }
 
 .paragraph-demo {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-bottom: 30px;
     color: #5a6e7f;
@@ -166,7 +166,7 @@ header .container {
 }
 
 #app-title {
-    padding: 30px;
+    padding: 20px;
 }
 
 #app-paragraph {
@@ -180,12 +180,12 @@ header .container {
 }
 
 #fa-arrow-down-long-button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background-color: #9593e6;
     border: none;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 /* <!--regole sezione testimonial --> */
@@ -207,24 +207,28 @@ header .container {
     font-size: 40px;
     color: #9792e4;
 }
-.testimonial-row{
-    width: 90%;
+
+.testimonial-row {
+    width: 80%;
     margin: 0 auto;
 }
+
 .testimonial-col {
-   
+    
     text-align: center;
     background-color: #9792e4;
     padding: 40px 0;
     margin: 40px 0;
     border-radius: 30px;
     color: white;
+
 }
 
 .testimonial-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+
 }
 
 .testimonial-paragraph {
@@ -233,6 +237,54 @@ header .container {
 
 }
 
+/* <!-- regole sezione benefit --> */
+.benefit-section{
+    background-color:#9792e4 ;
+      
+}
+.benefit-container{
+    padding:  50px 0;
+}
+.benefit-row{
+    width: 80%;
+    margin: 0 auto; 
+}
+.benefit-col{
+  
+   margin: 50px 0;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.benefit-maintitle{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.benefit-title{
+font-size: 40px;
+padding:20px ;
+color: #9792e4;
+}
+.benefit-subtitle{
+   font-size: 30px; 
+   padding:20px ;
+   color: #9792e4;
+}
+.benefit-paragraph{
+    font-size: 18px; 
+    padding:20px ;  
+    color: #818181;
+}
+.benefit-button{
+   width: 120px;
+   height: 40px;
+   font-size: 15px;
+   margin:20px ; 
+   border-radius: 30px;
+   border: none;
+   background-color: #9792e4;
+   color: white;
+}
 .footer {
     background-color: black;
 }
@@ -241,7 +293,7 @@ header .container {
 @media screen and (min-width:780px) {
 
     /* regole sezione demo dev application  */
-   
+
     .row {
         width: 100%;
         display: flex;
@@ -271,36 +323,47 @@ header .container {
     }
 
     /* <!--regole sezione testimonial --> */
-    .testimonial-row{
+    .testimonial-row {
         width: 80%;
-        margin: 0 auto;  
-    }
-    .testimonial-col{
-       
-        text-align: left;
-        height: 280px;
-       
-      
-    }
-   
-    .testimonial-img{
-        float: left;
-        margin: 0 20px;
-        
-       
-       
+        margin: 0 auto;
     }
 
+    .testimonial-col {
+
+        text-align: left;
+        height: 280px;
+
+
+    }
+
+    .testimonial-img {
+        float: left;
+        margin: 0 20px;
+        background-image: cover;
+
+
+    }
+    /* regole sezione benefit */
+    .benefit-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .benefit-col{
+        width: calc(90%/2 );
+    }
+   
 }
 
 /* varsione desktop */
 @media screen and (min-width:1280px) {
 
     /* regole header */
-    header .container{
-        width: 60%;
+    header .container {
+        width: 70%;
         margin: 0 auto;
     }
+
     .menuphone {
         display: none;
     }
@@ -331,17 +394,17 @@ header .container {
 
     /* regole sezione demo dev application  */
     .row {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         display: flex;
         gap: 20px;
-        padding-bottom: 20px;
+        margin-bottom: 5px;
     }
 
     .col-left {
         display: flex;
         width: 62%;
-        height: 400px;
+        height: 350px;
     }
 
     .text-phone {
@@ -353,12 +416,20 @@ header .container {
 
     .img-phone {
         text-align: left;
+        position: relative;
+    }
+
+    .phone-png {
+        position: absolute;
+        top: 70px;
+        right: -10px;
+
     }
 
     .col-demo {
         width: 30%;
-        height: 400px;
-        padding: 30px 0;
+        height: 350px;
+       
     }
 
     /* <!--regole sezione planning --> */
@@ -387,26 +458,38 @@ header .container {
         width: 150px;
 
     }
-    
+
     /* <!--regole sezione testimonial --> */
-    .testimonial-row{
-        width: 65%;
-        margin: 0 auto;  
+    .testimonial-row {
+        width: 60%;
+        margin: 0 auto;
     }
-    .testimonial-col{
-       
+
+    .testimonial-col {
+
         text-align: left;
         height: 250px;
-       
-      
+
+
     }
-   
-    .testimonial-img{
+
+    .testimonial-img {
         float: left;
         margin: 0 40px;
         margin-bottom: 20px;
-       
-       
+
+
+    }
+     /* regole sezione benefit */
+     .benefit-row{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .benefit-col{
+        width: calc(90%/3 );
     }
 
 }
@@ -488,7 +571,7 @@ footer {
 
 } */
 
-.col {
+/* .col {
     min-height: 100px;
     background-color: rgb(3, 158, 62);
-}
+} */
