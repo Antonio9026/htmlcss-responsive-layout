@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-    width: 80%;
+   max-width: 1440px;
     margin: 0 auto;
 
 }
@@ -554,7 +554,7 @@ footer {
 
     /* regole header */
     header .container {
-        width: 70%;
+       max-width: 1440px;
         margin: 0 auto;
     }
 
@@ -588,7 +588,7 @@ footer {
 
     /* regole sezione demo dev application  */
     .row {
-        width: 90%;
+    max-width: 1440px;
         margin: 0 auto;
         display: flex;
         gap: 20px;
@@ -629,7 +629,7 @@ footer {
     /* <!--regole sezione planning --> */
 
     .container-planning {
-        width: 50%;
+       max-width: 1440px;
         margin: 0 auto;
         display: flex;
 
@@ -655,7 +655,7 @@ footer {
 
     /* <!--regole sezione testimonial --> */
     .testimonial-row {
-        width: 60%;
+        max-width: 1440px;
         margin: 0 auto;
     }
 
@@ -677,7 +677,7 @@ footer {
 
     /* regole sezione benefit */
     .benefit-container{
-        width: 60%;
+        max-width: 1440px;
         margin: 0 auto;
     }
     .benefit-row {
@@ -695,7 +695,7 @@ footer {
 
     /* <!-- regole sezione about us --> */
     .about-container {
-        width: 60%;
+       max-width: 1440px;
         margin: 0 auto;
     }
 
