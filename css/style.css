@@ -395,6 +395,8 @@ header .container {
     font-size: 20px;
     margin: 40px;
     color: #9792e4;
+    border-radius: 50px;
+    border: none;
 
 }
 
@@ -756,7 +758,7 @@ footer {
     background-color: rgb(2, 54, 54);
     margin: solid 1px black;
 }   */
-.col-first {
+/* .col-first {
     min-height: 100px;
     background-color: rgb(1, 22, 22);
     margin: solid 1px black;
@@ -772,7 +774,7 @@ footer {
     min-height: 100px;
     background-color: rgb(3, 1, 22);
     margin: solid 1px black;
-}
+} */
 
 /* #strategic-plan{
     min-height: 100px;
